@@ -92,7 +92,7 @@ SCREEN_TEXTS = {
         "Спасибо за просмотр. Могу коротко уточнить задачу и предложить подходящий формат бота."
     ),
 
-    # ===== ЧТО Я ДЕЛАЮ =====
+    # ===== ВИДЫ БОТОВ =====
     "what_internal_bot": (
         "Что такое бот для администратора\n\n"
         "Развернутый:\n"
@@ -619,7 +619,7 @@ SCREEN_TEXTS = {
 
 SCREEN_BUTTONS = {
     "start_screen": [
-        [("Первый контакт", "first_contact_screen"), ("Что я делаю", "what_i_do_screen")],
+        [("Первый контакт", "first_contact_screen"), ("Виды ботов", "what_i_do_screen")],
         [("Услуги", "services_screen"), ("Прайс и сроки", "pricing_terms_screen")],
         [("Условия работы", "work_terms_screen"), ("Что нужно от клиента", "client_input_screen")],
         [("Возражения", "objections_screen"), ("Повторное касание", "followup_screen")],
@@ -697,7 +697,7 @@ SCREEN_BUTTONS = {
     "tech_questions_screen": [
         [("Хостинг", "tech_hosting"), ("Поддержка", "tech_support")],
         [("Когда нужен AI", "tech_ai_needed")],
-        [("Почему есть ежемесячно", "tech_render_explanation")],
+        [("Почему есть ежемесячная оплата", "tech_render_explanation")],
         [("Тестовая vs рабочая версия", "tech_working_version")],
         [("В меню", "start_screen")],
     ],
