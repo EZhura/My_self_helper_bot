@@ -645,7 +645,7 @@ SCREEN_BUTTONS = {
     ],
 
     "services_screen": [
-        [("Какие услуги я даю", "services_list")],
+        [("Какие услуги я предоставляю", "services_list")],
         [("Какой формат выбрать", "services_best_format")],
         [("Сопровождение", "services_support")],
         [("В меню", "start_screen")],
